@@ -2,3 +2,5 @@
 cmake-build*./**
 **/local\.cmake
 **/\.idea
+build/*
+.vscode/ipch*
