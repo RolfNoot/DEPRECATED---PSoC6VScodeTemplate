@@ -4,9 +4,8 @@
     - VS Code
     - ModusToolbox 1.1 (for PDL, Device Configurator, CyMCUElfTool and OpenOCD)
     - GNU Arm Embedded Toolchain
-    - https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
-    - You can use the unsigned 32bit option even if you have a 64bit system
-    - note that the version is explicitly entered in the configurations below, make sure to alter those lines as necessary
+    - CMake
+
 1. VS Code Extensions
     - ARM Support For Visual Studio Code (dan-c-underwood)
     - C/C++ IntelliSense, debugging (microsoft)
@@ -16,3 +15,7 @@
     - LinkerScript support for GNU (Zixuan Wang)
     - Open in Application (Fabio Spampinato)
     - Output Colorizer (IBM)
+    
+1. Check
+    - if make is installed by typing 'make -v' into the terminal window of VS Code
+        (make needs to be added to the system's path variable)
