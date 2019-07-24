@@ -1,0 +1,10 @@
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/rebuild_cache.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/edit_cache.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/PreBuild.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/VStest4.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/source/CortexM0/CMakeFiles/rebuild_cache.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/source/CortexM0/CMakeFiles/edit_cache.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/source/CortexM0/CMakeFiles/VStest4_CortexM0.elf.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/source/CortexM4/CMakeFiles/rebuild_cache.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/source/CortexM4/CMakeFiles/edit_cache.dir
+/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/source/CortexM4/CMakeFiles/VStest4_CortexM4.elf.dir

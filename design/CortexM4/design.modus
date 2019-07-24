@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Design version="10" xmlns="http://cypress.com/xsd/cydesignfile_v1">
+    <ToolInfo version="1.0.0"/>
+    <Device mpn="CY8C6347BZI-BLD53"/>
+    <Libraries>
+        <Library name="bt_20819A1" version="1.0"/>
+        <Library name="psoc6sw" version="1.1"/>
+    </Libraries>
+    <ConfiguratorData/>
+    <BlockConfig>
+        <Pins>
+            <Block location="ioss[0].port[12].pin[4]" alias="LED_BLUE" template="mxs40pin" version="1.0">
+                <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
+                <Param id="initialState" value="0"/>
+                <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                <Param id="driveStrength" value="CY_GPIO_DRIVE_FULL"/>
+                <Param id="sioOutputBuffer" value="true"/>
+                <Param id="inFlash" value="true"/>
+            </Block>
+            <Block location="ioss[0].port[12].pin[5]" alias="LED_RED" template="mxs40pin" version="1.0">
+                <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
+                <Param id="initialState" value="0"/>
+                <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                <Param id="driveStrength" value="CY_GPIO_DRIVE_FULL"/>
+                <Param id="sioOutputBuffer" value="true"/>
+                <Param id="inFlash" value="true"/>
+            </Block>
+        </Pins>
+    </BlockConfig>
+    <Netlist/>
+</Design>

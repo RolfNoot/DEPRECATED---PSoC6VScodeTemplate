@@ -1,0 +1,52 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PSoC Config",
+            "type": "shell",
+            "args": [ "design.modus" ],
+            "options": {
+                "cwd": "${workspaceRoot}/design/CortexM4"
+            },
+            "windows": {  // Assuming modustoolbox is installed in C:/
+                "command": "C:/ModusToolbox_1.1/tools/device-configurator-1.1/device-configurator.exe"
+            },
+            "linux": {  // Assuming modustoolbox is installed in /opt
+                "command": "/opt/ModusToolbox_1.1/tools/device-configurator-1.1/device-configurator"
+            },
+            "osx": {
+                "command": "/Applications/ModusToolbox_1.1/tools/device-configurator-1.1/device-configurator"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build All: Debug",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },     
+            "windows": {
+                "command": "C:/Program Files/CMake/bin/cmake.exe"
+            },
+            "linux": { 
+                "command": "/usr/bin/cmake"
+            },
+            "osx": {
+                "command": "/Applications/CMake.app/Contents/bin/cmake"
+            },
+            "args": [
+                "--build",
+                ".",
+                "-j6",
+                "\"--config\" \"Debug\"",
+                "\"--target\" \"all\"", 
+                "\"--\" \"-j\" \"26\""
+            ]
+        }
+    ]
+}

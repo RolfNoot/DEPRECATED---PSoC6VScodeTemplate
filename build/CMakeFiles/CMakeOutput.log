@@ -1,0 +1,733 @@
+The target system is: Generic -  - ARM
+The host system is: Darwin - 18.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_990c7/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_990c7.dir/build.make CMakeFiles/cmTC_990c7.dir/build
+Building C object CMakeFiles/cmTC_990c7.dir/testCCompiler.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_990c7.dir/testCCompiler.c.obj   -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_990c7.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_990c7.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_990c7.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_990c7.a  CMakeFiles/cmTC_990c7.dir/testCCompiler.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_990c7.a
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69791/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69791.dir/build.make CMakeFiles/cmTC_69791.dir/build
+Building C object CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj   -c /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native --libexecdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/lib --infodir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2018-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/cc1 -quiet -v -iprefix /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/ -isysroot /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc83nYx3.s
+GNU C17 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include"
+ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5bd604b841dbeba51cc84725638a07d0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc83nYx3.s
+GNU assembler version 2.31.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 2.31.51.20181213
+COMPILER_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C static library libcmTC_69791.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_69791.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69791.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_69791.a  CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_69791.a
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include]
+  implicit include dirs: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include;/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed;/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_69791/fast ]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_69791.dir/build.make CMakeFiles/cmTC_69791.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj   -c /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native --libexecdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/lib --infodir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2018-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (GNU Tools for Arm Embedded Processors 8-2018-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/cc1 -quiet -v -iprefix /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/ -isysroot /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc83nYx3.s]
+  ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5bd604b841dbeba51cc84725638a07d0]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc83nYx3.s]
+  ignore line: [GNU assembler version 2.31.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 2.31.51.20181213]
+  ignore line: [COMPILER_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_69791.a]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_69791.dir/cmake_clean_target.cmake]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69791.dir/link.txt --verbose=1]
+  ignore line: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_69791.a  CMakeFiles/cmTC_69791.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_69791.a]
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_370ef/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_370ef.dir/build.make CMakeFiles/cmTC_370ef.dir/build
+Building C object CMakeFiles/cmTC_370ef.dir/feature_tests.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc   -std=c11 -o CMakeFiles/cmTC_370ef.dir/feature_tests.c.obj   -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_370ef.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_370ef.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_370ef.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_370ef.a  CMakeFiles/cmTC_370ef.dir/feature_tests.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_370ef.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90ca8/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90ca8.dir/build.make CMakeFiles/cmTC_90ca8.dir/build
+Building C object CMakeFiles/cmTC_90ca8.dir/feature_tests.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc   -std=c99 -o CMakeFiles/cmTC_90ca8.dir/feature_tests.c.obj   -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_90ca8.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_90ca8.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ca8.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_90ca8.a  CMakeFiles/cmTC_90ca8.dir/feature_tests.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_90ca8.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef1c6/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ef1c6.dir/build.make CMakeFiles/cmTC_ef1c6.dir/build
+Building C object CMakeFiles/cmTC_ef1c6.dir/feature_tests.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc   -std=c90 -o CMakeFiles/cmTC_ef1c6.dir/feature_tests.c.obj   -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_ef1c6.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_ef1c6.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef1c6.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_ef1c6.a  CMakeFiles/cmTC_ef1c6.dir/feature_tests.c.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_ef1c6.a
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a79d3/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a79d3.dir/build.make CMakeFiles/cmTC_a79d3.dir/build
+Building CXX object CMakeFiles/cmTC_a79d3.dir/testCXXCompiler.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_a79d3.dir/testCXXCompiler.cxx.obj -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX static library libcmTC_a79d3.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_a79d3.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a79d3.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_a79d3.a  CMakeFiles/cmTC_a79d3.dir/testCXXCompiler.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_a79d3.a
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ec98/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ec98.dir/build.make CMakeFiles/cmTC_9ec98.dir/build
+Building CXX object CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -v -o CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native --libexecdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/lib --infodir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2018-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/cc1plus -quiet -v -iprefix /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/ -isysroot /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc9gSnrU.s
+GNU C++14 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include"
+ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1203c627a6bbebbe76407af3f36e813e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc9gSnrU.s
+GNU assembler version 2.31.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 2.31.51.20181213
+COMPILER_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX static library libcmTC_9ec98.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_9ec98.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec98.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_9ec98.a  CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_9ec98.a
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed]
+    add: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed]
+  collapse include dir [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include] ==> [/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include]
+  implicit include dirs: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1;/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi;/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward;/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include;/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed;/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_9ec98/fast ]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ec98.dir/build.make CMakeFiles/cmTC_9ec98.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -v -o CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native --libexecdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/lib --infodir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-8-build-toolchain-mac_cluster-128_20181216_1544945247/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2018-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (GNU Tools for Arm Embedded Processors 8-2018-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/cc1plus -quiet -v -iprefix /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/ -isysroot /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Applications/CMake.app/Contents/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc9gSnrU.s]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed]
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 8-2018-q4-major) version 8.2.1 20181213 (release) [gcc-8-branch revision 267074] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1203c627a6bbebbe76407af3f36e813e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/jz/8n2rzy395ygcwk37_rp5symr0000gp/T//cc9gSnrU.s]
+  ignore line: [GNU assembler version 2.31.51 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 2.31.51.20181213]
+  ignore line: [COMPILER_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/:/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_9ec98.a]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_9ec98.dir/cmake_clean_target.cmake]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec98.dir/link.txt --verbose=1]
+  ignore line: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_9ec98.a  CMakeFiles/cmTC_9ec98.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_9ec98.a]
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78a02/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_78a02.dir/build.make CMakeFiles/cmTC_78a02.dir/build
+Building CXX object CMakeFiles/cmTC_78a02.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -std=c++2a -o CMakeFiles/cmTC_78a02.dir/feature_tests.cxx.obj -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_78a02.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_78a02.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78a02.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_78a02.a  CMakeFiles/cmTC_78a02.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_78a02.a
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c9ba/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4c9ba.dir/build.make CMakeFiles/cmTC_4c9ba.dir/build
+Building CXX object CMakeFiles/cmTC_4c9ba.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -std=c++17 -o CMakeFiles/cmTC_4c9ba.dir/feature_tests.cxx.obj -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_4c9ba.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_4c9ba.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c9ba.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_4c9ba.a  CMakeFiles/cmTC_4c9ba.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_4c9ba.a
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54036/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_54036.dir/build.make CMakeFiles/cmTC_54036.dir/build
+Building CXX object CMakeFiles/cmTC_54036.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -std=c++14 -o CMakeFiles/cmTC_54036.dir/feature_tests.cxx.obj -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_54036.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_54036.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54036.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_54036.a  CMakeFiles/cmTC_54036.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_54036.a
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a673/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9a673.dir/build.make CMakeFiles/cmTC_9a673.dir/build
+Building CXX object CMakeFiles/cmTC_9a673.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -std=c++11 -o CMakeFiles/cmTC_9a673.dir/feature_tests.cxx.obj -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_9a673.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_9a673.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a673.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_9a673.a  CMakeFiles/cmTC_9a673.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_9a673.a
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_045b7/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_045b7.dir/build.make CMakeFiles/cmTC_045b7.dir/build
+Building CXX object CMakeFiles/cmTC_045b7.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-g++    -std=c++98 -o CMakeFiles/cmTC_045b7.dir/feature_tests.cxx.obj -c /Volumes/Data/VScode/GIT/PSoC6VScodeTemplate/build/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_045b7.a
+/Applications/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_045b7.dir/cmake_clean_target.cmake
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_045b7.dir/link.txt --verbose=1
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ar qc libcmTC_045b7.a  CMakeFiles/cmTC_045b7.dir/feature_tests.cxx.obj
+/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-ranlib libcmTC_045b7.a
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

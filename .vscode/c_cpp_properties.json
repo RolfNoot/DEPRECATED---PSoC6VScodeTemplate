@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "C/C++",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/source",
+                    "/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/",
+                    "/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1",
+                    "/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi",
+                    "/Applications/gcc-arm-none-eabi-8-2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward",
+                    "/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include",
+                    "/Applications/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                "__ARM_ARCH=6",
+                "__ARM_ARCH_6M__=1",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "compilerPath":  "/Applications/gcc-arm-none-eabi-8-2018-q4-major/bin/arm-none-eabi-gcc",
+            "configurationProvider": "vector-of-bool.cmake-tools"
+        }
+    ],
+    "version": 4
+}
