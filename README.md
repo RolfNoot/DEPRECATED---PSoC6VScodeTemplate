@@ -19,3 +19,10 @@
 1. Check
     - if make is installed by typing 'make -v' into the terminal window of VS Code
         (make needs to be added to the system's path variable)
+        
+        
+1. Remind
+    - after changing the device configuration to use
+        - Clean Reconfigure
+        - Clean Rebuild
+      in order to build the image properly.
