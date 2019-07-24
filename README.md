@@ -25,4 +25,5 @@
     - after changing the device configuration to use
         - Clean Reconfigure
         - Clean Rebuild
-      in order to build the image properly.
+        
+        in order to build the image properly.
