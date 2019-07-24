@@ -1,0 +1,4 @@
+# Exclude cmake build directories
+cmake-build*./**
+**/local\.cmake
+**/\.idea
