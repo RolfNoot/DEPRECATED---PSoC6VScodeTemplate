@@ -21,6 +21,7 @@
     - LinkerScript support for GNU (Zixuan Wang)
     - Open in Application (Fabio Spampinato)
     - Output Colorizer (IBM)
+    - Tasks (actboy168)
     
 1. Configure
     - Command Palette (CTRL+SHIFT+P) > type: JSON > Click Preferences: Open Settings (JSON)
