@@ -10,8 +10,10 @@
     - CMake
         - https://cmake.org/download/
     - Make
-        - for macOS: install homebrew GNU by: 'make brew install homebrew/core/make' as [explained here](https://apple.stackexchange.com/questions/261918/how-to-upgrade-gnu-make-in-os-x-el-capitan).
-        - for Windows: [these](https://github.com/onethinx/GetStartedWithVSCode/tree/master/VScode_supply) files can be copied to, for example the "?/Program Files (x86)/make/" folder and it's path needs to be added to the environment ([here's how to do it](https://docs.alfresco.com/4.2/tasks/fot-addpath.html), reboot after adding the path).
+        - macOS
+            install homebrew GNU by: 'make brew install homebrew/core/make' as [explained here](https://apple.stackexchange.com/questions/261918/how-to-upgrade-gnu-make-in-os-x-el-capitan).
+        - Windows
+            [these](https://github.com/onethinx/GetStartedWithVSCode/tree/master/VScode_supply) files can be copied to, for example the "?/Program Files (x86)/make/" folder and it's path needs to be added to the environment ([here's how to do it](https://docs.alfresco.com/4.2/tasks/fot-addpath.html), reboot after adding the path).
 
 1. VS Code Extensions
     - ARM Support For Visual Studio Code (dan-c-underwood)
