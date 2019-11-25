@@ -16,7 +16,7 @@
     - ARM Support For Visual Studio Code (dan-c-underwood)
     - C/C++ IntelliSense, debugging (microsoft)
     - CMake language support (twxs)
-    - CMake Tools (vector-of-bool)
+    - CMake Tools (microsoft)
     - Cortex-Debug GDB support (marus25)
     - LinkerScript support for GNU (Zixuan Wang)
     - Open in Application (Fabio Spampinato)
