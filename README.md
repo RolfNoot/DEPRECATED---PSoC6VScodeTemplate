@@ -11,6 +11,7 @@
         - https://cmake.org/download/
     - Make
         - depending on your OS (for Windows MinGW can be used, macOS homebrew GNU make)
+        - for windows, [these](https://github.com/onethinx/GetStartedWithVSCode/tree/master/VScode_supply) files can be copied to for example the "?/Program Files (x86)/make" folder and it's path needs to be added to the environment ([here's how to do it](https://docs.alfresco.com/4.2/tasks/fot-addpath.html), reboot after adding the path.
 
 1. VS Code Extensions
     - ARM Support For Visual Studio Code (dan-c-underwood)
