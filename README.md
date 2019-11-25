@@ -43,8 +43,8 @@
     "cmake.sourceDirectory": "${workspaceRoot}"
     ```
 1. Check
-    - if make is installed by typing 'make -v' into the terminal window of VS Code
-        (make needs to be added to the system's path variable)
+    - if make is installed by typing 'make -v' (or mingw32-make.exe -v) into the terminal window of VS Code
+        (the folder of the make binary needs to be added to the system's path variable)
         
 1. Remind
     - after changing the device configuration to use
